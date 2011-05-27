@@ -1,0 +1,13 @@
+\frac {c_n} {c_{n-1}} = \frac {4n-1} {4n+1}\\
+\frac {c_{n-1}} {c_n} = \frac {4n+1} {4n-1}\\
+c_{n-1} = c_n \frac {4n+1} {4n-1} = c_n \frac {4n-1+2} {4n-1}\\
+= c_n + \frac {2c_n} {4n-1}\\
+
+c_n = c_{n-1} - \frac {2c_{n-1}+r} {4n+1} \\
+c_n \left ( 4n+1 \right ) = c_{n-1} \left ( 4n+1 \right ) - 2c_{n-1} + r = c_{n-1} \left ( 4n-1 \right ) + r \\
+c_n \left ( 4n+1 \right ) - r = c_{n-1} \left ( 4n-1 \right ) \\
+c_{n-1} = \frac {c_n}{}
+
+c_{-1} = c_0 \frac {4 \cdot 0+1} {4 \cdot 0-1} = -c_0
+
+c_n = c_{n-1} +
